@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(180deg, #6CD2F9 -30.08%, #3C88EE 100%);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    position: relative;
+}
+.container {
+    width: 550px;
+    background-color: rgb(247, 162, 4);
+    border-radius: 15px;
+    box-shadow: 0px 2px 93px -19px rgba(0, 0, 0, 0.15);
+    height: 98%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 36px;
+    color: #c70000ee;
+    margin: 30px 0 45px;
+}
+h6 {
+    font-size: 20px;
+    color: #111311;
+    margin: 30px 0 45px;
+}
+.row{
+    padding: 0 40px;
+    position: relative;
+}
+input {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 33px -4px rgba(0, 0, 0, 0.884);
+    border-radius: 34px;
+    border: none;
+    outline: none;
+    padding: 20px 25px;
+}
+.row input::placeholder {
+    font-size: 16px;
+    color:black;
+    font-family: Montserrat;
+}
+input.icon{
+    font-size: 35px;
+    color: white;
+    background: #2ad12a;
+    width: auto;
+    border-radius: 50%;
+    padding: 0px 12px;
+    position: relative;
+    right: -42%;
+    top: -50px;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.icon:hover{
+    color: #0cec0c;
+    background-color: white;
+    border-color: #08ee08;
+}
+h4{
+    font-family: cursive;
+    font-size: 24px;
+    color: black;
+    margin: 20px 0 40px;
+}
+.row ul.task_list{
+    list-style: none;
+    text-align: left;
+}
+.row ul.task_list li{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px -4px rgb(0, 0, 0);
+    border-radius: 34px;
+    padding: 20px 25px;
+    margin-bottom: 17px;
+    font-size: 16px;
+    color:black;
+    position: relative;
+}
+.row ul.task_list li span{
+    position: absolute;
+    font-size: 22px;
+    right: 9px;
+    top: 6px;
+    padding: 9px 16px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.row ul.task_list li span:hover{
+    color: white;
+    background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
